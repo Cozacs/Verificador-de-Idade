@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <script src="./interatividade/interacao.js"></script>
+    <title>Exercicio Proposto</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <main>
+        <section>
+            <p>Ano de Nascimento:<input type="number" name="ano" id="iano" required></p>
+            <p>Sexo: <input type="radio" name="sexo" id="masc" checked required>Masculino
+                     <input type="radio" name="sexo" id="fem" >Feminino</p>
+            <p><input type="button" value="Verificar" onclick="verificarIdade()"></p>
+            <section id="resposta">
+                <div id="msg">Preencha os dados acima para ver o resultado!</div>
+                <div id="foto">
+                    <img src="imagens/idoso.jpg" alt="" id="img">
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p>@Copyright Cozacs</p>
+    </footer>
+</body>
+</html>
